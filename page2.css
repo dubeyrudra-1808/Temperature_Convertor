@@ -1,0 +1,62 @@
+.row{
+    
+    height: 700px;
+    width: 1500px;
+display: flex;
+}
+.column1{
+
+    padding-top: 160px;
+    text-align: center;
+    justify-content: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+width: 50%;
+flex-direction: column;
+
+}
+.column2{
+padding-top: 160px;
+text-align: center;
+justify-content: center;
+background-size:cover;
+background-repeat: no-repeat;
+/* background-image: url('https://thumbs.gfycat.com/ConcreteAbandonedAfricanclawedfrog-size_restricted.gif'); */
+
+flex-direction: column;
+width: 50%;
+}
+.cel{
+font-size:65px;
+color: black;
+font-weight: bolder;
+}
+#outputCelcius{
+    color:black;
+padding: 60px;
+font-size:70px;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}
+.inputFahrenheit{
+height: 320px;
+width:240px;
+border-radius: 5%;}
+.label{
+height: 400px;
+width:800px;
+}
+.label input{
+font-size: 50px ;
+color: black;
+font-weight: bolder;
+height:80px;
+width: 200px;
+border: 20px solid white;
+border-radius: 10%;
+}
+.cell{
+    font-size:50px;
+    color: white;
+    font-weight: bolder;   
+}

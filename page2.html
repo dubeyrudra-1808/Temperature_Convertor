@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Fahrenheit to Celcius Temperature Converter</title>
+<link rel="stylesheet" href="page2.css">
+<body>
+
+  <iframe src="bg.html" frameborder="0" scrolling="no" style="position: absolute; width: 100%; height: 100%;z-index:-100"></iframe>
+  <div class="row">
+    <div class="column1">
+<p class="cell">°C</p>
+
+<P class="label">
+  <label></label>
+  <input id="inputFahrenheit" type="number" placeholder="ENTER" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+</div>
+<div class="column2">
+<p class="cel">°F<br><span id="outputFahrenheit"></span></p>
+</div>
+</div>
+<script src="page2.js">
+</script>
+</div>
+</body>
+</html>
